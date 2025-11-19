@@ -7,38 +7,38 @@ It scrapes jobs from LinkedIn and Indeed, analyzes them with AI, and generates t
 
 ## ✨ Key Features
 
-- Job Search & Scraping**
+- Job Search & Scraping
   - Search LinkedIn and Indeed jobs by title, location, and keywords
   - Add custom job URLs
   - Fetch and parse full job descriptions
   - Smart deduplication of jobs
 
-- AI Job Analysis (Claude)**
+- AI Job Analysis (Claude)
   - Job–profile match scoring (0–100%)
   - Qualification assessment with natural-language reasoning
   - Automatic requirement & skills extraction
   - Batch/background analysis with progress tracking
 
-- AI Cover Letter Generation**
+- AI Cover Letter Generation
   - Tailored cover letter per job
   - Company & role-aware content
   - Uses a base user template as context
   - Preview & edit before use
   - Auto-save generated letters to organized folders
 
-- Application Tracking**
+- Application Tracking
   - Status pipeline: Discovered → Analyzing → Qualified → Applied → Rejected → Skipped
   - Filters & search for applications
   - Daily application limits
   - Open job posting directly from the app
 
-- Profile & Preferences**
+- Profile & Preferences
   - Personal details (name, email, phone, location)
   - Skills, experience, education
   - Target job titles, locations, salary range
   - Required & excluded keywords
 
-- Security & Privacy**
+- Security & Privacy
   - AES-GCM 256-bit encryption via CryptoKit
   - API keys stored securely in iOS/macOS Keychain
   - Local-only data: no cloud sync, no analytics, no 3rd-party tracking
